@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B24E0B3B231375A90061BAD5 /* CurrencyTxtField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24E0B3A231375A90061BAD5 /* CurrencyTxtField.swift */; };
 		B269DC1D231214DC001E0CA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B269DC1C231214DC001E0CA4 /* AppDelegate.swift */; };
-		B269DC1F231214DC001E0CA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B269DC1E231214DC001E0CA4 /* ViewController.swift */; };
+		B269DC1F231214DC001E0CA4 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B269DC1E231214DC001E0CA4 /* MainViewController.swift */; };
 		B269DC22231214DC001E0CA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B269DC20231214DC001E0CA4 /* Main.storyboard */; };
 		B269DC24231214E5001E0CA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B269DC23231214E5001E0CA4 /* Assets.xcassets */; };
 		B269DC27231214E5001E0CA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B269DC25231214E5001E0CA4 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B24E0B3A231375A90061BAD5 /* CurrencyTxtField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTxtField.swift; sourceTree = "<group>"; };
 		B269DC19231214DC001E0CA4 /* window-shopper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "window-shopper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B269DC1C231214DC001E0CA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B269DC1E231214DC001E0CA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B269DC1E231214DC001E0CA4 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		B269DC21231214DC001E0CA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B269DC23231214E5001E0CA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B269DC26231214E5001E0CA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,6 +37,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B24E0B38231367990061BAD5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B269DC1E231214DC001E0CA4 /* MainViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B24E0B39231375730061BAD5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B24E0B3A231375A90061BAD5 /* CurrencyTxtField.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		B269DC10231214DC001E0CA4 = {
 			isa = PBXGroup;
 			children = (
@@ -54,8 +72,9 @@
 		B269DC1B231214DC001E0CA4 /* window-shopper */ = {
 			isa = PBXGroup;
 			children = (
+				B24E0B39231375730061BAD5 /* Views */,
+				B24E0B38231367990061BAD5 /* Controller */,
 				B269DC1C231214DC001E0CA4 /* AppDelegate.swift */,
-				B269DC1E231214DC001E0CA4 /* ViewController.swift */,
 				B269DC20231214DC001E0CA4 /* Main.storyboard */,
 				B269DC23231214E5001E0CA4 /* Assets.xcassets */,
 				B269DC25231214E5001E0CA4 /* LaunchScreen.storyboard */,
@@ -135,7 +154,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B269DC1F231214DC001E0CA4 /* ViewController.swift in Sources */,
+				B24E0B3B231375A90061BAD5 /* CurrencyTxtField.swift in Sources */,
+				B269DC1F231214DC001E0CA4 /* MainViewController.swift in Sources */,
 				B269DC1D231214DC001E0CA4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
